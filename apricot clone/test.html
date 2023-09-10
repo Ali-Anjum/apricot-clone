@@ -1,18 +1,39 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <title>Mobile Side Header</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<style>
+
+</style>
 <body>
-    <button class="position-absolute h5 border-secondary rounded-circle " style="top: 50%; right: 2%;  background: rgb(129, 129, 129); opacity: 0.4;">
-        <i class="fa-solid fa-greater-than hover-greater-than  " ></i> 
-   </button>
-    
+    <section  class="section-2 d-flex">
+        <div id="pag-big" class=" position-relative bg-black py-2       " style="z-index: 0; color: transparent;   ">
+            <img class="img-2  px-3 mb-5 " src="/Images/Defense_day_601x.webp" style="width: 50vw; height: 100%;" >
+            <button id="btn-img"  class=" position-absolute text-white     rounded-circle photo-2 " style=" text-align: center; font-size: 16px; width: 25px;  border: 0; top: 50% ; left:5%;  background: rgba(25, 25, 25, 0.3); ">
+                <i class="fa-solid fa-greater-than  fa-rotate-180" ></i> 
+            </button>
+            <button id="btn-img" class=" position-absolute text-white     rounded-circle photo-2 " style=" text-align: center; font-size: 16px; width: 25px;  border: 0; top: 50%; right:5%;  background: rgba(25, 25, 25, 0.3); ">
+                <i class="fa-solid fa-greater-than  " ></i> 
+            </button>
+
+        </div>
+            <div class=" py-2    justify-content-end w-100 align-items-right">
+                <a class="text-dark 3  "href="#"><h2 id="img-2-text" class="w-100 text-center  pb-2 d-none"  >View products</h2></a>
+                <img id="img-2"  class=" px-3  mb-5"   src="/Images/930x390_1_601x.webp" style="width: 48vw; height: 55vh;" >
+            <div class=" py-2    justify-content-end  w-100 align-items-right">
+                <a class="text-dark 3  "href="#"><h2 id="img-2-text" class="w-100 text-center  pb-2 d-none"  >View products</h2></a>
+
+                <img id="img-2"class="px-3"   src="/Images/930x390_499x.jpg" style="width: 48vw; height: 55vh" >
+            </div>
+        </div>
+    </section>
+    </script>
 </body>
 </html>
